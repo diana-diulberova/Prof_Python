@@ -16,3 +16,4 @@ span_tag = soup.find("span", class_="table-ip4-home")
 ip_address = span_tag.text
 ip_address = ip_address.strip()
 print(f"{ip_address=}")
+
